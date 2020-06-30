@@ -1,0 +1,13 @@
+<select id="difficulty" name="difficulty">
+                                <option disabled selected value> --Difficulty-- </option>
+                                <option value="easy">Beginner</option>
+                                <option value="intermediate">Intermediate</option>
+                                <option value="expert">Expert</option>
+                            </select>
+
+                            <select id="state" name="state">
+                                <option disabled selected value> --State-- </option>
+                                <option value="completed">Completed</option>
+                                <option value="incomplete">Not completed</option>
+                                
+                            </select>
