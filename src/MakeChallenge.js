@@ -7,6 +7,18 @@ import {Link} from 'react-router-dom';
             <div className = 'makechallenge'>
 
                 <div className ='challengecontentz'>
+
+                <div>
+                    <label for = 'difficulty'>Difficulty</label>
+                    <select id="difficulty" name="difficulty">
+                        <option disabled selected value> -- select an option -- </option>
+                        <option value="easy">Beginner</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="expert">Expert</option>
+                    </select>
+                </div>
+
+
                 <div>
                     <label for = 'title'>Title</label><br/>
                     <input type = 'textarea' placeholder= 'Title of the Challenge'></input>
@@ -22,25 +34,12 @@ import {Link} from 'react-router-dom';
                     <input type = 'textarea'></input>
                 </div>
 
-                <div>
-                    <label for = 'difficulty'>Difficulty</label>
-                    <select id="difficulty" name="difficulty">
-                        <option disabled selected value> -- select an option -- </option>
-                        <option value="easy">Beginner</option>
-                        <option value="intermediate">Intermediate</option>
-                        <option value="expert">Expert</option>
-                    </select>
-                </div>
 
                 <div>
                     <label for = 'points'>Points</label><br/>
                     <input type = 'textarea' placeholder="Number"></input>
                 </div>
 
-                <div>
-                    <label for = 'constraints'>Problem Statement</label><br/>
-                    <input type = 'textarea'></input>
-                </div>
 
                 <div>
                     <label for = 'sampleinput'>Sample Input</label><br/>
@@ -49,6 +48,11 @@ import {Link} from 'react-router-dom';
 
                 <div>
                     <label for = 'sampleoutput'>Sample Output</label><br />
+                    <input type = 'textarea'></input>
+                </div>
+
+                <div>
+                    <label for = 'tags'>Tags</label><br />
                     <input type = 'textarea'></input>
                 </div>
 
