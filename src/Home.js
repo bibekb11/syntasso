@@ -62,15 +62,17 @@ export default function Home(){
                     </div>
                     
                 </div>
-                <div className = 'box4'>
-                    
+                
+                    <div className = 'box4'>
                         <h1> Here's a daily challenge for you.</h1> 
-                        <div className = 'insidebox4'>  
-                        <img src="https://img.icons8.com/color/96/000000/c-programming.png"/> 
-                        <h2> Working with pointers.</h2>
-                        </div>
-                    
-                </div> 
+                        <Link to = "/coursecontent">
+                            <div className = 'insidebox4'>  
+                                <img src="https://img.icons8.com/color/96/000000/c-programming.png"/> 
+                                <h2> Working with pointers.</h2>
+                            </div>
+                         </Link>
+                         </div> 
+               
 
                 <div className = 'box5'>
                     <h1> Make your own challenges.</h1>
